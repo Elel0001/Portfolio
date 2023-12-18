@@ -1,0 +1,18 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  /****** husk på respektive classes ******/
+  /* display: block; */
+  /* object-fit: cover; */
+  /* align-self: stretch; */
+}
+
+/****************** mobilversion tekster og farver ******************/
+@media screen and (max-width: 800px) {
+}
