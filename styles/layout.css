@@ -1,4 +1,4 @@
-/*************** Forside ************/
+/************************************************** Forside ************************************************/
 
 /* placering af farvede bokse er lavet med delvis inspiration fra chatGPT */
 
@@ -45,23 +45,35 @@
   }
 }
 
-/************ Fuld skærm *********/
+/************************************************** Fuld skærm ************************************************/
 @media screen and (min-width: 750px) {
   .section_forside {
     position: relative;
   }
 
+  /***** border lavet med hjælp fra chatGPT ****/
   .border {
-    border: 2px solid black;
-    margin: 0% 2%;
+    margin: 0% 3%;
+    position: relative;
   }
+
+  .border::before {
+    content: ""; /* Tilføj tomt indhold til pseudo-elementet */
+    position: absolute;
+    top: 5%;
+    left: 0;
+    right: 0;
+    bottom: 7%;
+    border: 2px solid rgb(4, 9, 43);
+  }
+  /***** border slut ****/
 
   .blomster_div {
     position: absolute;
     background-color: #96a8ae;
     margin-left: 6%;
     margin-right: 68%;
-    margin-top: 15%;
+    margin-top: 18%;
     z-index: 2;
   }
 
@@ -75,16 +87,16 @@
     position: absolute;
     background-color: #c8d6d8;
     margin-left: 28%;
-    margin-top: 10%;
+    margin-top: 13%;
     z-index: 3;
-    padding: 5% 15% 5% 3%;
+    padding: 5% 11% 5% 3%;
   }
 
   .figur_div {
     position: absolute;
     background-color: #aebdc2;
     z-index: 1;
-    margin-top: 5%;
+    margin-top: 8%;
     margin-left: 46%;
     padding: 3% 11% 3% 21%;
   }
