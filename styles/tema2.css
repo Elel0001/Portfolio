@@ -1,0 +1,156 @@
+/* ******************************** WEB - tema 2 ************************* */
+@media screen and (max-width: 850px) {
+  .websitebillede {
+    padding: 5% 5%;
+    max-width: 550px;
+  }
+
+  .overskrift1 {
+    padding-left: 5%;
+  }
+
+  .tekst1 {
+    padding: 10px 9% 3% 5%;
+    max-width: 65ch;
+  }
+
+  .box_1 {
+    padding-bottom: 20px;
+  }
+
+  .section2 {
+    background-color: #96a8ae;
+    padding-bottom: 10%;
+  }
+
+  .tekst2 {
+    padding-left: 5%;
+    padding-top: 10px;
+  }
+
+  .box_2 {
+    padding: 25px 0%;
+    max-width: 65ch;
+    padding-right: 5%;
+  }
+
+  .kode1 {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  .kode2 {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  .box_3 {
+    padding-top: 10%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 5%;
+  }
+
+  .kode3 {
+    display: none;
+  }
+
+  .section3 {
+    padding-bottom: 10%;
+    max-width: 65ch;
+  }
+
+  .knap {
+    text-align: center;
+    margin-top: 6%;
+    padding-top: 20px;
+  }
+
+  .knap_center {
+    padding: 10px 40px;
+    background-color: transparent;
+    background-color: #04568d;
+    text-decoration: none;
+    color: aliceblue;
+  }
+}
+
+/********************** Fuld skærm ****************** */
+
+@media screen and (min-width: 850px) {
+  .section1 {
+    display: grid;
+    grid-template-columns: 1fr 1.25fr;
+    margin: 6% 20%;
+  }
+
+  .overskrift1 {
+    padding-top: 14%;
+    padding-left: 10%;
+  }
+
+  .tekst1 {
+    padding-top: 3%;
+    padding-left: 10%;
+    padding-right: 9%;
+  }
+
+  .box_1 {
+    background-color: #cdd7e0;
+  }
+
+  .section2 {
+    background-color: #96a8ae;
+    display: grid;
+    grid-template-columns: 1.5fr 2.25fr;
+  }
+
+  .tekst2 {
+    padding-left: 8%;
+    padding-top: 10px;
+    max-width: 65ch;
+  }
+
+  .box_2 {
+    padding-top: 16%;
+    padding-left: 20%;
+  }
+
+  .kode1 {
+    padding: 0% 22%;
+
+    margin-top: -11%;
+    margin-bottom: 6%;
+  }
+
+  .kode2 {
+    padding: 6% 28% 0% 34%;
+    margin: 0px -34%;
+  }
+
+  .section3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 6% 23% 6% 23%;
+  }
+
+  .box_3 {
+    background-color: #eaeaea;
+    padding-top: 23%;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+
+  .knap {
+    text-align: center;
+    margin-top: 6%;
+  }
+
+  .knap_center {
+    padding: 10px 40px;
+    background-color: transparent;
+    background-color: #04568d;
+    text-decoration: none;
+    color: aliceblue;
+  }
+}
