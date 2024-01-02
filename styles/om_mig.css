@@ -1,0 +1,131 @@
+/****************** Om mig ***********/
+
+/*********** mobilversion ********/
+@media screen and (max-width: 750px) {
+  .billede_strand {
+    padding-bottom: 2%;
+  }
+
+  .section1 {
+    padding-left: 5%;
+    padding-bottom: 5%;
+    max-width: 65ch;
+    padding-right: 5%;
+  }
+
+  .section2 {
+    padding-top: 5%;
+    padding-left: 5%;
+  }
+
+  .styling_tekst {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 5%;
+    max-width: 65ch;
+  }
+
+  .billede_1 {
+    display: none;
+  }
+
+  .billede_2 {
+    display: none;
+  }
+
+  .billede_3 {
+    display: none;
+  }
+
+  .billede_4 {
+    padding-right: 5%;
+  }
+
+  .billede_5 {
+    display: none;
+  }
+}
+
+/*********************** Fuld skærm ***********************/
+@media screen and (min-width: 750px) {
+  .section1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-bottom: 4%;
+  }
+
+  .billede_strand {
+    display: block;
+  }
+
+  .tekst01 {
+    padding-left: 22%;
+    padding-top: 12%;
+    padding-right: 30%;
+    background-color: #aebdc2;
+  }
+
+  .styling_overskrift {
+    padding-bottom: 10px;
+  }
+
+  .section2 {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    padding-left: 17%;
+    gap: 3%;
+    padding-bottom: 5%;
+  }
+
+  .tekst02 {
+    padding-top: 28%;
+    max-width: 65ch;
+  }
+
+  .styling_tekst {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .galleri {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    max-width: 600px;
+    gap: 10px;
+  }
+
+  .billede_1 {
+    grid-column: 1 / span 1;
+    grid-row: 1 / span 1;
+    object-fit: cover;
+    align-self: stretch;
+  }
+
+  .billede_2 {
+    grid-column: 2 / span 1;
+    grid-row: 1 / span 1;
+    object-fit: cover;
+    align-self: stretch;
+  }
+
+  .billede_3 {
+    grid-column: 3 / span 1;
+    grid-row: 1 / span 2;
+    object-fit: cover;
+    align-self: stretch;
+  }
+
+  .billede_4 {
+    grid-column: 1 / span 2;
+    grid-row: 2 / span 2;
+    object-fit: cover;
+    align-self: stretch;
+  }
+
+  .billede_5 {
+    grid-column: 3 / span 1;
+    grid-row: 3 / span 1;
+    object-fit: cover;
+    align-self: stretch;
+  }
+}
