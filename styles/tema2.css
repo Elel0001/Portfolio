@@ -1,8 +1,13 @@
 /* ******************************** WEB - tema 2 ************************* */
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 750px) {
   .websitebillede {
     padding: 5% 5%;
     max-width: 550px;
+  }
+
+  .tekst_web {
+    padding-top: 5%;
+    padding-left: 5%;
   }
 
   .overskrift1 {
@@ -77,11 +82,16 @@
 
 /********************** Fuld skærm ****************** */
 
-@media screen and (min-width: 850px) {
+@media screen and (min-width: 750px) {
   .section1 {
     display: grid;
     grid-template-columns: 1fr 1.25fr;
     margin: 6% 20%;
+  }
+
+  .tekst_web {
+    padding-top: 2%;
+    padding-left: 2%;
   }
 
   .overskrift1 {

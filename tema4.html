@@ -9,17 +9,107 @@
     <link rel="stylesheet" href="styles/mutual_style.css">
     <link rel="stylesheet" href="styles/layout.css">
     <link rel="stylesheet" href="styles/menu.css">
+    <link rel="stylesheet" href="styles/tema4.css">
 
 </head>
 
 <body>
     <header>
+        <nav>
+            <ul class="menu">
+                <li><a href="index.html">Forside</a></li>
+            </ul>
+        </nav>
+        <div class="logo">
+            <a href="index.html">
+                <img src="img/figur_forside.svg" alt="Logo">
+            </a>
+        </div>
+        <nav>
+            <ul class="menu">
+                <li><a href="tema2.html">Web</a></li>
+                <li><a href="tema3.html">UX/UI</a></li>
+                <li><a href="tema4.html">Animation</a></li>
+                <li><a href="tema5.html">Indhold</a></li>
+                <li><a href="om_mig.html">Om mig</a></li>
+            </ul>
+            <div class="burger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+        </nav>
     </header>
 
     <main>
+        <section>
+            <div class="header_section">
+                <div class="boks1">
+                    <h1>Animation</h1>
+                    <p>På dette tema fik vi kendskab til javascript, da dette skulle bruges til at animere vores spil.
+                        Ved brugen af
+                        illustrator fik vi kendskab til vektorgrafik, herunder at kunne designe vores egne svg-elementer
+                        til baggrunde og andre
+                        css animationer.</p>
+                </div>
+                <div>
+                    <img src="img/billeder_tema2/kode2.png" alt="billede af spilforside" class="billede_spil">
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="SMD">
+                <div>
+                    <img src="img/billeder_tema4/mit_statemachine_diagram.png" alt="">
+                </div>
+                <div class="tekst1">
+                    <h3>Statemachine-diagram</h3>
+                    <p>Det var også her vi fik indblik i, hvordan man med fordel kan gøre brug af aktivitets- og
+                        statemachinediagram i sin
+                        kodningsproces. Det hjalp til at skabe det store overblik over, hvilke funktioner og kode der
+                        skal benyttes for at gøre
+                        spillet interaktivt og klikbart.</p>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="section3">
+                <div>
+                    <img src="img/billeder_tema2/kode1.png" alt="">
+                    <img src="img/billeder_tema2/kode2.png" alt="">
+                </div>
+                <div class="tekst02">
+                    <h3 class="styling_tekst">JavaScript og keyframes</h3>
+                    <p class="styling_tekst">Vi lærte blandt andet hvordan man med brug af konstanter kan minimere antal
+                        anslag i koden. Til
+                        venstre ses hvordan jeg
+                        har lavet en konstant for mine gode og dårlige nisser, og kan nøjes med at definere goodC i
+                        stedet for hele den
+                        efterfølgende sætning.</p>
+                    <p class="styling_tekst">I kodningsprocessen synes jeg det gik meget stærkt i forhold til hvad jeg
+                        kunne følge med i.
+                        Særligt kodningen af UI
+                        elementerne, på bl.a. liv og timer, var jeg en del udfordret, men fik det til at lykkedes. Jeg
+                        ville gerne have et lys
+                        til at brænde, og måtte gøre brug af kodningen og animationen fra ”bjælken” og dertil lave en
+                        timerfunktion der kørte
+                        simultant, for at toppen af lyset fulgte med ned i samme hastighed som selve lyset.</p>
+                    <div class="knap">
+                        <a href="/" class="knap_center">Prøv spillet her</a>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
 
     <footer>
+        <div class="footer_linje">
+            <h5>1. semester</h5>
+            <div class="vertical_line"></div>
+            <h5>Elina Ellegaard</h5>
+            <div class="vertical_line"></div>
+            <h5>MMD 1B</h5>
+        </div>
     </footer>
     <script src="Java/menu.js"></script>
     <script src="Java/script.js"></script>

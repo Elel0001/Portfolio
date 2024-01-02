@@ -1,0 +1,120 @@
+/****************** tema 4 - Animation ***********/
+
+/*********** mobilversion ********/
+@media screen and (max-width: 750px) {
+  .header_section {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    max-width: 65ch;
+  }
+
+  .boks1 {
+    padding: 5%;
+  }
+
+  .billede_spil {
+    padding: 0% 5%;
+  }
+
+  .SMD {
+    padding: 0% 5%;
+    max-width: 65ch;
+  }
+
+  .tekst1 {
+    padding-top: 3%;
+  }
+
+  .section3 {
+    padding: 5%;
+    max-width: 65ch;
+  }
+
+  .tekst02 {
+    padding: 3% 0%;
+  }
+
+  .styling_tekst {
+    padding-top: 10px;
+  }
+
+  .knap {
+    padding-top: 20px;
+    text-align: center;
+  }
+
+  .knap_center {
+    padding: 10px 40px;
+    background-color: transparent;
+    background-color: #04568d;
+    text-decoration: none;
+    color: aliceblue;
+  }
+}
+
+/*********************** Fuld skærm ***********************/
+@media screen and (min-width: 750px) {
+  .header_section {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  .boks1 {
+    background-color: #aebdc2;
+    padding-top: 24%;
+    padding-left: 8%;
+    padding-right: 4%;
+  }
+
+  .billede_spil {
+    max-height: 400px;
+  }
+
+  .SMD {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 5%;
+  }
+
+  .tekst1 {
+    padding-left: 5%;
+    padding-top: 40%;
+  }
+
+  .section3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #aebdc2;
+    padding: 5% 20%;
+    gap: 50px;
+  }
+
+  .tekst02 {
+    padding-top: 20%;
+  }
+
+  .styling_tekst {
+    padding-top: 10px;
+  }
+
+  .knap {
+    margin-top: 6%;
+    padding-top: 20px;
+  }
+
+  .knap_center {
+    padding: 10px 40px;
+    background-color: transparent;
+    background-color: #04568d;
+    text-decoration: none;
+    color: aliceblue;
+  }
+}
