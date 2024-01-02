@@ -25,6 +25,23 @@
     text-decoration: none;
     color: aliceblue;
   }
+
+  .tekst2 {
+    padding: 6%;
+  }
+
+   .tekst3 {
+    padding: 7%;
+  }
+
+   .styling_tekst {
+      padding-top: 4%;
+    }
+
+    .knap2{
+        padding-top: 10%;
+        padding-left: 25%;
+    }
 }
 
 /* ******************************** Fuld skærm ************************* */
@@ -36,7 +53,7 @@
 
   .kasse1 {
     background-color: #dae3e6;
-    padding-bottom: 60%;
+    padding-bottom: 65%;
   }
 
   .kasse2 {
@@ -44,7 +61,7 @@
   }
 
   .tekst1 {
-    padding-top: 10%;
+    padding-top: 9%;
     padding-left: 30%;
     padding-right: 22%;
   }
@@ -62,4 +79,84 @@
     text-decoration: none;
     color: aliceblue;
   }
+
+  /* .section2 {
+    padding: 5%;
+    display: flex;
+    justify-content: center;
+  } */
+
+  .tekst2 {
+    padding: 3%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .billeder {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    padding: 0% 20%;
+  }
+
+  .tekst3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 2% 21%;
+    gap: 70px;
+  }
+
+    .styling_tekst {
+      padding-top: 10px;
+    }
+
+    .knap2{
+        padding-top: 10%;
+        padding-left: 25%;
+    }
+
+    .section2{
+        padding-bottom: 4%;
+        padding-top: 1.5%;
+    }
+  }
+
+  /***** Caroussel er taget fra aflevering tema 5 *****/
+  /* .produkter {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+
+  .carousel-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    margin: 5% 0 2% 5%;
+    padding-left: 5%;
+  }
+
+  .carousel {
+    display: flex;
+    overflow: hidden;
+    flex: 1;
+    gap: 10px;
+  }
+
+  .carousel-slide {
+    flex: 0 0 20%;
+  } */
+
+  /* .nav-arrows {
+    font-size: 20px;
+    cursor: pointer;
+    color: #809671;
+    margin: 10% 2% 0 0;
+  }
+
+  .next-arrow {
+    font-size: 25px;
+  } */
+  /********** carousel end ********/
 }
