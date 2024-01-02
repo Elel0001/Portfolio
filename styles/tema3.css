@@ -1,0 +1,65 @@
+/* ******************************** UX/UI - tema 3 ************************* */
+@media screen and (max-width: 850px) {
+  .header_bokse {
+    background-color: #a3b3b9;
+    padding-bottom: 7%;
+  }
+
+  .tekst1 {
+    padding-top: 10%;
+    padding-left: 5%;
+    padding-right: 5%;
+    max-width: 65ch;
+  }
+
+  .knap {
+    text-align: center;
+    margin-top: 6%;
+    padding-top: 20px;
+  }
+
+  .knap_center {
+    padding: 10px 40px;
+    background-color: transparent;
+    background-color: #04568d;
+    text-decoration: none;
+    color: aliceblue;
+  }
+}
+
+/* ******************************** Fuld skærm ************************* */
+@media screen and (min-width: 850px) {
+  .header_bokse {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+  }
+
+  .kasse1 {
+    background-color: #dae3e6;
+    padding-bottom: 60%;
+  }
+
+  .kasse2 {
+    background-color: #a3b3b9;
+  }
+
+  .tekst1 {
+    padding-top: 10%;
+    padding-left: 30%;
+    padding-right: 22%;
+  }
+
+  .knap {
+    text-align: center;
+    margin-top: 4%;
+    padding-left: 40%;
+  }
+
+  .knap_center {
+    padding: 10px 40px;
+    background-color: transparent;
+    background-color: #04568d;
+    text-decoration: none;
+    color: aliceblue;
+  }
+}
