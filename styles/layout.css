@@ -112,4 +112,8 @@
     gap: 30px;
     padding: 38% 20% 8% 20%;
   }
+
+  .tema_billede:hover {
+    transform: scale(1.15);
+  }
 }
