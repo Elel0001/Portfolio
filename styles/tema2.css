@@ -66,10 +66,14 @@
     max-width: 68ch;
   }
 
+  .tekst3 {
+    padding-top: 10px;
+    max-width: 68ch;
+  }
+
   .knap {
     text-align: center;
     margin-top: 6%;
-    padding-top: 20px;
   }
 
   .knap_center {
@@ -78,11 +82,6 @@
     background-color: #04568d;
     text-decoration: none;
     color: aliceblue;
-  }
-
-  .tekst3 {
-    padding-top: 10px;
-    max-width: 68ch;
   }
 }
 
