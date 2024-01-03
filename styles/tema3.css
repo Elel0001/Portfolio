@@ -28,43 +28,41 @@
     color: aliceblue;
   }
 
-  .section2{
+  .section2 {
     padding-left: 5%;
     max-width: 65ch;
-    
-    }
+  }
 
   .tekst2_t3 {
     padding-top: 7%;
     padding-bottom: 5%;
   }
 
-   .tekst3 {
+  .tekst3 {
     padding-top: 5%;
   }
 
-   .styling_tekst {
-      padding-top: 4%;
-    }
+  .styling_tekst {
+    padding-top: 4%;
+  }
 
-    .knap2{
-        padding-top: 10%;
-        
-    }
+  .knap2 {
+    padding-top: 10%;
+  }
 
-    .knap3{
-        padding-top: 7%;
-    }
+  .knap3 {
+    padding-top: 7%;
+  }
 
-    .section3{
+  .section3 {
     padding: 7%;
     max-width: 65ch;
-    }
+  }
 
-    .overskrift_sec3{
+  .overskrift_sec3 {
     padding-top: 5%;
     padding-bottom: 2%;
-    }
+  }
 }
 
 /* ******************************** Fuld skærm ************************* */
@@ -103,7 +101,6 @@
     color: aliceblue;
   }
 
-
   .tekst2_t3 {
     padding: 3%;
     display: flex;
@@ -124,53 +121,94 @@
     gap: 70px;
   }
 
-    .styling_tekst {
-      padding-top: 10px;
-    }
-
-    .knap2{
-        padding-top: 10%;
-        padding-left: 65%;
-    }
-
-    .section2{
-        padding-bottom: 2%;
-        padding-top: 1.5%;
-    }
-
-    .section3{
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        padding: 2% 17%;
-        
-    }
-
-    .screenshot{
-        padding: 8%;
-    }
-
-    .overskrift_sec3{
-        padding-top: 2%;
-        padding-bottom: 2%;
-    }
-
-    .tekst4{
-        padding-top: 44%;
-        padding-right: 5%;
-        padding-left: 13%;
-    }
-
-    .knap3{
-        padding-top: 7%;
-        padding-left: 50%;
-    }
+  .styling_tekst {
+    padding-top: 10px;
   }
 
-  /***** Caroussel er taget fra aflevering tema 5 *****/
-  /* .produkter {
-    width: 100%;
-    height: auto;
-    object-fit: cover;
+  .knap2 {
+    padding-top: 10%;
+    padding-left: 65%;
+  }
+
+  .section2 {
+    padding-bottom: 2%;
+    padding-top: 1.5%;
+  }
+
+  .section3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 2% 17%;
+  }
+
+  .screenshot {
+    padding: 8%;
+  }
+
+  .overskrift_sec3 {
+    padding-top: 2%;
+    padding-bottom: 2%;
+  }
+
+  .tekst4 {
+    padding-top: 44%;
+    padding-right: 5%;
+    padding-left: 13%;
+  }
+
+  .knap3 {
+    padding-top: 7%;
+    padding-left: 50%;
+  }
+}
+
+/***** Caroussel er taget fra aflevering tema 5 *****/
+
+/********************************************* karousel ****************************************************/
+
+.produkter {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.carousel-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  margin: 5% 0 2% 5%;
+  padding-left: 5%;
+}
+
+.carousel {
+  display: flex;
+  overflow: hidden;
+  flex: 1;
+  gap: 10px;
+}
+
+.carousel-slide {
+  flex: 0 0 20%;
+}
+
+.nav-arrows {
+  font-size: 20px;
+  cursor: pointer;
+  color: #809671;
+  margin: 10% 2% 0 0;
+}
+
+.next-arrow {
+  font-size: 25px;
+}
+/********************************************* karousel end ****************************************************/
+
+/*************************************************** carousel media ***********************************************/
+
+@media (min-width: 750px) {
+  .carousel_mobil {
+    display: none;
   }
 
   .carousel-container {
@@ -182,6 +220,10 @@
     padding-left: 5%;
   }
 
+  .carousel_mobil {
+    margin: 5%;
+  }
+
   .carousel {
     display: flex;
     overflow: hidden;
@@ -189,19 +231,65 @@
     gap: 10px;
   }
 
-  .carousel-slide {
+  .carousel-slide_mobil {
     flex: 0 0 20%;
-  } */
+  }
 
-  /* .nav-arrows {
+  .nav-arrows_mobil {
     font-size: 20px;
     cursor: pointer;
-    color: #809671;
+    color: blue;
+    margin: 10% 2% 0 0;
+  }
+
+  .next-arrow_mobil {
+    font-size: 25px;
+  }
+
+  .text_iconer {
+    text-align: center;
+  }
+
+  .nav-arrows {
+    font-size: 20px;
+    cursor: pointer;
+    color: blue;
     margin: 10% 2% 0 0;
   }
 
   .next-arrow {
     font-size: 25px;
-  } */
-  /********** carousel end ********/
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .carousel_web {
+    display: none;
+  }
+
+  .carousel-container_mobil {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    margin: 5% 2% 5% 2%;
+  }
+
+  .carousel_mobil {
+    display: flex;
+    overflow: hidden;
+    flex: 1;
+    gap: 5px;
+  }
+
+  .nav-arrows_mobil {
+    font-size: 15px;
+    cursor: pointer;
+    color: blue;
+    margin: 25% 0 0 0;
+  }
+
+  .next-arrow_mobil {
+    font-size: 20px;
+  }
 }
