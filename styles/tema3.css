@@ -81,7 +81,7 @@
 @media screen and (min-width: 750px) {
   .header_bokse {
     display: grid;
-    grid-template-columns: 1fr 1.9fr;
+    grid-template-columns: 1fr 1.5fr;
   }
 
   .kasse1 {
@@ -97,18 +97,19 @@
 
   .kasse2 {
     background-color: #a3b3b9;
+    padding-left: 3%;
   }
 
   .tekst1 {
-    padding-top: 6%;
+    padding-top: 7%;
     padding-left: 6%;
-    padding-right: 43%;
+    padding-right: 38%;
   }
 
   .knap {
     text-align: center;
-    margin-top: -2%;
-    padding-left: 41%;
+    margin-top: 5%;
+    padding-left: 5%;
   }
 
   .knap_center {

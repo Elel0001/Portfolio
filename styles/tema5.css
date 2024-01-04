@@ -46,6 +46,13 @@
     padding-bottom: 10%;
   }
 
+  .knap2 {
+    text-align: center;
+    margin-top: 6%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
+
   .knap_center {
     padding: 10px 40px;
     background-color: transparent;
@@ -64,7 +71,7 @@
 
   .blomst {
     padding-right: 30%;
-    padding-top: 6%;
+    padding-top: 15%;
   }
 
   .tekst001 {
@@ -72,6 +79,13 @@
     padding-bottom: 6%;
     padding-right: 49%;
     padding-left: 1%;
+  }
+
+  .knap2 {
+    text-align: center;
+    margin-top: 3%;
+    padding-top: 19px;
+    margin-left: -4%;
   }
 
   .boks2 {

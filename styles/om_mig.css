@@ -73,6 +73,16 @@
   .punktliste {
     padding-left: 10%;
   }
+
+  .kompetencer {
+    padding-top: 12px;
+  }
+
+  .blomst_spejlvendt {
+    width: 50%;
+    margin-left: 51%;
+    margin-top: 2%;
+  }
 }
 
 /*********************** Fuld skærm ***********************/
