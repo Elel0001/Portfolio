@@ -69,6 +69,10 @@
     padding-left: 6%;
     padding-right: 2%;
   }
+
+  .punktliste {
+    padding-left: 10%;
+  }
 }
 
 /*********************** Fuld skærm ***********************/
@@ -199,8 +203,12 @@
 
   .blomst_spejlvendt {
     width: 70%;
-    padding-top: 65%;
     margin-left: 40%;
     margin-top: 2%;
+  }
+
+  .punktliste {
+    padding-left: 10%;
+    padding-top: 2%;
   }
 }
