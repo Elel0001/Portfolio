@@ -22,7 +22,7 @@ h1 {
   font-size: 2.5rem;
   font-style: italic;
   padding-top: 15px;
-  padding-bottom: 10px;
+  padding-bottom: 8px;
 }
 
 h2 {
@@ -35,6 +35,7 @@ h3 {
   font-family: "Playfair Display", serif;
   font-weight: 600;
   font-size: 1.5rem;
+  padding-bottom: 8px;
 }
 
 h5 {

@@ -14,13 +14,13 @@
   }
 
   .section2 {
-    padding-top: 5%;
+    padding-top: 2%;
     padding-left: 5%;
+    max-width: 65ch;
   }
 
   .styling_tekst {
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-bottom: 5%;
     padding-right: 5%;
     max-width: 65ch;
   }
@@ -39,10 +39,26 @@
 
   .billede_4 {
     padding-right: 5%;
+    padding-bottom: 5%;
   }
 
   .billede_5 {
     display: none;
+  }
+
+  .migbillede {
+    display: none;
+  }
+
+  .tekst02 {
+    padding-right: 5%;
+    max-width: 65ch;
+  }
+
+  .section3 {
+    max-width: 65ch;
+    padding-left: 5%;
+    padding-right: 5%;
   }
 }
 
@@ -78,7 +94,7 @@
   }
 
   .tekst02 {
-    padding-top: 28%;
+    padding-top: 20%;
     padding-right: 10%;
     max-width: 65ch;
   }
@@ -147,8 +163,8 @@
 
   .tekst03 {
     background-color: #d9d9d9;
-    padding-right: 15%;
-    padding-top: 10%;
+    padding-right: 20%;
+    padding-top: 8%;
     padding-left: 20%;
   }
 }

@@ -67,26 +67,28 @@
 
   .boks1 {
     background-color: #aebdc2;
-    padding-top: 24%;
-    padding-left: 8%;
-    padding-right: 4%;
+    padding-top: 15%;
+    padding-left: 11%;
+    padding-right: 11%;
   }
 
   .billede_spil {
     max-height: 400px;
+    display: block;
   }
 
   .SMD {
     display: grid;
-    grid-template-columns: 1.5fr 1fr;
-    padding-left: 10%;
-    padding-right: 10%;
+    grid-template-columns: 1.25fr 1fr;
+    padding-left: 11%;
+    padding-right: 14%;
     padding-bottom: 5%;
   }
 
   .tekst1 {
-    padding-left: 5%;
-    padding-top: 40%;
+    padding-left: 10%;
+    padding-top: 12%;
+    padding-right: 15%;
   }
 
   .section3 {

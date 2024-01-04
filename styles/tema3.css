@@ -1,10 +1,14 @@
 /* ******************************** UX/UI - tema 3 ************************* */
 
 /******************************* mobilversion ******************************/
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 750px) {
   .header_bokse {
     background-color: #a3b3b9;
     padding-bottom: 7%;
+  }
+
+  .pære {
+    display: none;
   }
 
   .tekst1 {
@@ -42,6 +46,10 @@
     padding-top: 5%;
   }
 
+  .grid_tekst {
+    padding-right: 5%;
+  }
+
   .styling_tekst {
     padding-top: 4%;
   }
@@ -63,18 +71,28 @@
     padding-top: 5%;
     padding-bottom: 2%;
   }
+
+  .screenshot {
+    display: none;
+  }
 }
 
 /* ******************************** Fuld skærm ************************* */
-@media screen and (min-width: 850px) {
+@media screen and (min-width: 750px) {
   .header_bokse {
     display: grid;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 1fr 1.9fr;
   }
 
   .kasse1 {
     background-color: #dae3e6;
-    padding-bottom: 65%;
+    padding-bottom: 10%;
+  }
+
+  .pære {
+    width: 40%;
+    padding-top: 12%;
+    margin-left: 55%;
   }
 
   .kasse2 {
@@ -82,15 +100,15 @@
   }
 
   .tekst1 {
-    padding-top: 9%;
-    padding-left: 30%;
-    padding-right: 22%;
+    padding-top: 6%;
+    padding-left: 6%;
+    padding-right: 43%;
   }
 
   .knap {
     text-align: center;
-    margin-top: 4%;
-    padding-left: 40%;
+    margin-top: -2%;
+    padding-left: 41%;
   }
 
   .knap_center {
@@ -102,7 +120,7 @@
   }
 
   .tekst2_t3 {
-    padding: 3%;
+    padding: 2%;
     display: flex;
     justify-content: center;
   }
@@ -127,7 +145,7 @@
 
   .knap2 {
     padding-top: 10%;
-    padding-left: 65%;
+    padding-left: 35%;
   }
 
   .section2 {
@@ -138,11 +156,15 @@
   .section3 {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    padding: 2% 17%;
+    padding: 1% 20%;
+    background-color: #a3b3b9;
   }
 
   .screenshot {
-    padding: 8%;
+    margin-top: 10%;
+    margin-left: 33%;
+    margin-bottom: 6%;
+    width: 45%;
   }
 
   .overskrift_sec3 {
@@ -151,14 +173,14 @@
   }
 
   .tekst4 {
-    padding-top: 44%;
-    padding-right: 5%;
-    padding-left: 13%;
+    padding-top: 30%;
+    padding-right: 15%;
+    padding-left: 0%;
+    margin-left: -10%;
   }
 
   .knap3 {
     padding-top: 7%;
-    padding-left: 50%;
   }
 }
 
@@ -177,8 +199,8 @@
   flex-direction: row;
   align-items: center;
   text-align: center;
-  margin: 5% 0 2% 5%;
-  padding-left: 5%;
+  padding-left: 15%;
+  padding-bottom: 2%;
 }
 
 .carousel {
@@ -189,7 +211,7 @@
 }
 
 .carousel-slide {
-  flex: 0 0 20%;
+  flex: 0 0 25%;
 }
 
 .nav-arrows {
@@ -216,8 +238,7 @@
     flex-direction: row;
     align-items: center;
     text-align: center;
-    margin: 5% 0 2% 5%;
-    padding-left: 5%;
+    /* margin: -1% -28% 1% 8%; */
   }
 
   .carousel_mobil {
@@ -251,14 +272,14 @@
   }
 
   .nav-arrows {
-    font-size: 20px;
+    font-size: 27px;
     cursor: pointer;
     color: blue;
-    margin: 10% 2% 0 0;
+    margin: 7% 0% 0 0;
   }
 
   .next-arrow {
-    font-size: 25px;
+    font-size: 35px;
   }
 }
 
@@ -272,7 +293,7 @@
     flex-direction: row;
     align-items: center;
     text-align: center;
-    margin: 5% 2% 5% 2%;
+    margin: 0% 10% 3% 0%;
   }
 
   .carousel_mobil {
