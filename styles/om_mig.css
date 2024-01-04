@@ -59,6 +59,15 @@
     max-width: 65ch;
     padding-left: 5%;
     padding-right: 5%;
+    padding-bottom: 5%;
+  }
+
+  .boks1 {
+    background-color: #f1f2f0;
+    padding-top: 5%;
+    margin-top: 4%;
+    padding-left: 6%;
+    padding-right: 2%;
   }
 }
 
@@ -154,7 +163,8 @@
   .designvalg {
     display: grid;
     grid-template-columns: 1fr 4fr;
-    padding: 5% 18% 5% 20%;
+    padding: 5% 18% 1% 18%;
+    margin-left: 3%;
   }
 
   .migbillede {
@@ -163,8 +173,27 @@
 
   .tekst03 {
     background-color: #d9d9d9;
-    padding-right: 20%;
-    padding-top: 8%;
-    padding-left: 20%;
+    padding-right: 17%;
+    padding-top: 6%;
+    padding-left: 15%;
+    margin-right: 6%;
+  }
+
+  .boks1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 17px;
+    margin: 0% 21%;
+    padding-bottom: 5%;
+  }
+
+  .CV {
+    background-color: #f1f2f0;
+    padding: 8% 8% 8% 8%;
+  }
+
+  .kompetencer {
+    background-color: #f1f2f0;
+    padding: 6% 5% 45% 8%;
   }
 }

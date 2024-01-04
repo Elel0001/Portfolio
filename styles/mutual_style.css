@@ -38,6 +38,13 @@ h3 {
   padding-bottom: 8px;
 }
 
+h4 {
+  font-family: "Playfair Display", serif;
+  font-weight: 400;
+  font-size: 1.1rem;
+  padding-bottom: 2%;
+}
+
 h5 {
   font-family: "Lato", sans-serif;
   font-weight: 300;
@@ -94,6 +101,12 @@ footer {
     font-family: "Playfair Display", serif;
     font-weight: 600;
     font-size: 1.7cqw;
+  }
+
+  h4 {
+    font-family: "Playfair Display", serif;
+    font-weight: 400;
+    font-size: 1.2cqw;
   }
 
   h5 {
