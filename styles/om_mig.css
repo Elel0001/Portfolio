@@ -97,7 +97,7 @@
   .section2 {
     display: grid;
     grid-template-columns: 1fr 2fr;
-    padding-left: 17%;
+    padding-left: 19%;
     gap: 3%;
     padding-bottom: 5%;
   }
@@ -194,6 +194,13 @@
 
   .kompetencer {
     background-color: #f1f2f0;
-    padding: 6% 5% 45% 8%;
+    padding: 8% 8% 8% 8%;
+  }
+
+  .blomst_spejlvendt {
+    width: 70%;
+    padding-top: 65%;
+    margin-left: 40%;
+    margin-top: 2%;
   }
 }
