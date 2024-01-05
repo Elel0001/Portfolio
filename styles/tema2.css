@@ -25,11 +25,11 @@
   }
 
   .section2 {
-    background-color: #96a8ae;
+    background-color: #aebdc2;
     padding-bottom: 10%;
   }
 
-  .tekst2 {
+  .tekst02 {
     padding-left: 5%;
     padding-top: 10px;
   }
@@ -74,14 +74,6 @@
   .knap {
     text-align: center;
     margin-top: 6%;
-  }
-
-  .knap_center {
-    padding: 10px 40px;
-    background-color: transparent;
-    background-color: #04568d;
-    text-decoration: none;
-    color: aliceblue;
   }
 }
 

@@ -3,7 +3,7 @@
 /******************************* mobilversion ******************************/
 @media screen and (max-width: 750px) {
   .header_bokse {
-    background-color: #a3b3b9;
+    background-color: #aebdc2;
     padding-bottom: 7%;
   }
 
@@ -208,7 +208,7 @@
 .nav-arrows {
   font-size: 20px;
   cursor: pointer;
-  color: #809671;
+  color: #2c505d;
   margin: 10% 2% 0 0;
 }
 

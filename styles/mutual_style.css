@@ -10,6 +10,7 @@ img {
 }
 
 main {
+  /* background-color: #e8e2db; */
   background-color: #f1ece6;
 }
 
@@ -72,7 +73,7 @@ h5 = footer tekst + tekst på karousel */
   a {
     font-family: "Lato", sans-serif;
     font-weight: 300;
-    font-size: 0.9rem;
+    font-size: 1.1rem;
   }
 
   ul {
@@ -89,7 +90,7 @@ h5 = footer tekst + tekst på karousel */
 
   footer {
     border-top-style: solid;
-    border-color: black;
+    border-color: #223b44;
     border-top-width: 1px;
     padding-top: 30px;
     padding-bottom: 30px;
@@ -102,7 +103,7 @@ h5 = footer tekst + tekst på karousel */
   }
 
   .vertical_line {
-    border-left: 1px solid black;
+    border-left: 1px solid #223b44;
     height: 18px;
   }
 
@@ -163,7 +164,7 @@ h5 = footer tekst + tekst på karousel */
   a {
     font-family: "Lato", sans-serif;
     font-weight: 300;
-    font-size: 1rem;
+    font-size: 1.1rem;
   }
 
   ul {
@@ -180,7 +181,7 @@ h5 = footer tekst + tekst på karousel */
 
   footer {
     border-top-style: solid;
-    border-color: black;
+    border-color: #223b44;
     border-top-width: 1px;
     padding-top: 30px;
     padding-bottom: 30px;
@@ -193,12 +194,12 @@ h5 = footer tekst + tekst på karousel */
   }
 
   .vertical_line {
-    border-left: 1.5px solid black;
+    border-left: 1.5px solid #223b44;
     height: 24px;
   }
 
   /* knapper */
-  .knap:hover {
+  /* .knap:hover {
     transform: scale(1.1);
   }
   .knap2:hover {
@@ -206,7 +207,7 @@ h5 = footer tekst + tekst på karousel */
   }
   .knap3:hover {
     transform: scale(1.1);
-  }
+  } */
 
   .knap_center {
     padding: 10px 40px;
