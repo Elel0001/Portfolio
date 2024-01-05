@@ -24,14 +24,6 @@
     padding-top: 2%;
   }
 
-  .knap_center {
-    padding: 10px 40px;
-    background-color: transparent;
-    background-color: #04568d;
-    text-decoration: none;
-    color: aliceblue;
-  }
-
   .section2 {
     padding-left: 5%;
     max-width: 65ch;
@@ -116,14 +108,6 @@
     text-align: center;
     margin-top: 5%;
     padding-left: 5%;
-  }
-
-  .knap_center {
-    padding: 10px 40px;
-    background-color: transparent;
-    background-color: #04568d;
-    text-decoration: none;
-    color: aliceblue;
   }
 
   .tekst2_t3 {
@@ -245,7 +229,6 @@
     flex-direction: row;
     align-items: center;
     text-align: center;
-    /* margin: -1% -28% 1% 8%; */
   }
 
   .carousel_mobil {

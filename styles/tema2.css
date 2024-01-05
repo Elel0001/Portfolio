@@ -162,12 +162,4 @@
     text-align: center;
     padding-left: 51%;
   }
-
-  .knap_center {
-    padding: 10px 40px;
-    background-color: transparent;
-    background-color: #04568d;
-    text-decoration: none;
-    color: aliceblue;
-  }
 }

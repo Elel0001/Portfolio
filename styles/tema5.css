@@ -52,14 +52,6 @@
     padding-top: 5%;
     padding-bottom: 5%;
   }
-
-  .knap_center {
-    padding: 10px 40px;
-    background-color: transparent;
-    background-color: #04568d;
-    text-decoration: none;
-    color: aliceblue;
-  }
 }
 
 /*********************** Fuld skærm ***********************/
@@ -122,14 +114,6 @@
     text-align: center;
     margin-top: 3%;
     padding-top: 20px;
-  }
-
-  .knap_center {
-    padding: 10px 40px;
-    background-color: transparent;
-    background-color: #04568d;
-    text-decoration: none;
-    color: aliceblue;
   }
 
   .boks4 {
