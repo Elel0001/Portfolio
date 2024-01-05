@@ -90,9 +90,9 @@ nav {
 
   nav.active .menu {
     display: block;
-    background-color: #fff;
+    background-color: #fffffff3;
     position: absolute;
-    top: 60px;
+    top: 75px;
     left: 0;
     width: 100%;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);

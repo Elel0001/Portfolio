@@ -21,7 +21,7 @@
   .knap {
     text-align: center;
     margin-top: 6%;
-    padding-top: 20px;
+    padding-top: 2%;
   }
 
   .knap_center {
@@ -56,10 +56,16 @@
 
   .knap2 {
     padding-top: 10%;
+    text-align: center;
+  }
+
+  .tekst4 {
+    margin-left: -2%;
   }
 
   .knap3 {
     padding-top: 7%;
+    text-align: center;
   }
 
   .section3 {
