@@ -186,7 +186,7 @@
   }
 
   .tekst03 {
-    background-color: #d9d9d9;
+    background-color: #dae3e6;
     padding-right: 17%;
     padding-top: 6%;
     padding-left: 15%;
@@ -202,12 +202,12 @@
   }
 
   .CV {
-    background-color: #f1f2f0;
+    background-color: #dae3e6;
     padding: 8% 8% 8% 8%;
   }
 
   .kompetencer {
-    background-color: #f1f2f0;
+    background-color: #dae3e6;
     padding: 8% 8% 8% 8%;
   }
 
@@ -218,7 +218,7 @@
   }
 
   .punktliste {
-    padding-left: 10%;
+    padding-left: 8%;
     padding-top: 2%;
   }
 }

@@ -113,11 +113,11 @@
   }
 
   .box_1 {
-    background-color: #cdd7e0;
+    background-color: #dae3e6;
   }
 
   .section2 {
-    background-color: #96a8ae;
+    background-color: #aebdc2;
     display: grid;
     grid-template-columns: 1.5fr 2.25fr;
   }
@@ -152,7 +152,7 @@
   }
 
   .box_3 {
-    background-color: #eaeaea;
+    background-color: #dae3e6;
     padding-top: 14%;
     padding-left: 10%;
     padding-right: 10%;

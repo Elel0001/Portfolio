@@ -10,7 +10,7 @@ img {
 }
 
 main {
-  background-color: #e8e2db;
+  background-color: #f1ece6;
 }
 
 /* 
@@ -22,81 +22,97 @@ h5 = footer tekst + tekst på karousel */
 
 /****************** mobilversion tekster og farver ******************/
 @media (max-width: 750px) {
-}
-h1 {
-  font-family: "Playfair Display", serif;
-  font-weight: 600;
-  font-size: 2.5rem;
-  font-style: italic;
-  padding-top: 15px;
-  padding-bottom: 8px;
-}
+  h1 {
+    font-family: "Playfair Display", serif;
+    font-weight: 600;
+    font-size: 2.5rem;
+    font-style: italic;
+    padding-top: 15px;
+    padding-bottom: 8px;
+    color: #223b44;
+  }
 
-h2 {
-  font-family: "Lato", sans-serif;
-  font-weight: 300;
-  font-size: 1.2rem;
-}
+  h2 {
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-size: 1.2rem;
+    color: #223b44;
+  }
 
-h3 {
-  font-family: "Playfair Display", serif;
-  font-weight: 600;
-  font-size: 1.5rem;
-  padding-bottom: 8px;
-}
+  h3 {
+    font-family: "Playfair Display", serif;
+    font-weight: 600;
+    font-size: 1.5rem;
+    padding-bottom: 8px;
+    color: #223b44;
+  }
 
-h4 {
-  font-family: "Playfair Display", serif;
-  font-weight: 400;
-  font-size: 1.1rem;
-  padding-bottom: 2%;
-}
+  h4 {
+    font-family: "Playfair Display", serif;
+    font-weight: 400;
+    font-size: 1.1rem;
+    padding-bottom: 2%;
+    color: #223b44;
+  }
 
-h5 {
-  font-family: "Lato", sans-serif;
-  font-weight: 300;
-  font-size: 1rem;
-}
+  h5 {
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-size: 1rem;
+    color: #223b44;
+  }
 
-p {
-  font-family: "Lato", sans-serif;
-  font-weight: 300;
-  font-size: 1.1rem;
-}
+  p {
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-size: 1.1rem;
+    color: #223b44;
+  }
 
-a {
-  font-family: "Lato", sans-serif;
-  font-weight: 300;
-  font-size: 0.9rem;
-}
+  a {
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-size: 0.9rem;
+  }
 
-ul {
-  font-family: "Lato", sans-serif;
-  font-weight: 300;
-  font-size: 1.1rem;
-}
+  ul {
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-size: 1.1rem;
+    color: #223b44;
+  }
 
-li {
-  padding-top: 5px;
-}
+  li {
+    padding-top: 5px;
+    color: #223b44;
+  }
 
-footer {
-  border-top-style: solid;
-  border-color: black;
-  border-top-width: 1px;
-  padding-top: 30px;
-  padding-bottom: 30px;
-}
+  footer {
+    border-top-style: solid;
+    border-color: black;
+    border-top-width: 1px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
 
-.footer_linje {
-  display: flex;
-  justify-content: center;
-  gap: 15px;
-}
+  .footer_linje {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+  }
 
-.vertical_line {
-  border-left: 1px solid black;
-  height: 18px;
+  .vertical_line {
+    border-left: 1px solid black;
+    height: 18px;
+  }
+
+  .knap_center {
+    padding: 10px 40px;
+    background-color: transparent;
+    background-color: #2c505d;
+    text-decoration: none;
+    color: aliceblue;
+  }
 }
 
 /* ************************* computerversion ********************* */
@@ -182,7 +198,7 @@ footer {
   }
 
   /* knapper */
-  /* .knap:hover {
+  .knap:hover {
     transform: scale(1.1);
   }
   .knap2:hover {
@@ -190,7 +206,7 @@ footer {
   }
   .knap3:hover {
     transform: scale(1.1);
-  } */
+  }
 
   .knap_center {
     padding: 10px 40px;
