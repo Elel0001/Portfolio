@@ -13,6 +13,13 @@ main {
   background-color: #e8e2db;
 }
 
+/* 
+h1 = overskrift
+h2 = underoverskrift på forside
+h3 = underoverskrift
+h4 = underoverskrifter på CV og kompentencer
+h5 = footer tekst + tekst på karousel */
+
 /****************** mobilversion tekster og farver ******************/
 @media (max-width: 750px) {
 }
@@ -97,26 +104,26 @@ footer {
   h1 {
     font-family: "Playfair Display", serif;
     font-weight: 600;
-    font-size: 3cqw;
+    font-size: 3rem;
     font-style: italic;
   }
 
   h2 {
     font-family: "Lato", sans-serif;
     font-weight: 300;
-    font-size: 1.3cqw;
+    font-size: 1.3rem;
   }
 
   h3 {
     font-family: "Playfair Display", serif;
     font-weight: 600;
-    font-size: 1.7cqw;
+    font-size: 1.8rem;
   }
 
   h4 {
     font-family: "Playfair Display", serif;
     font-weight: 400;
-    font-size: 1.2cqw;
+    font-size: 1.2rem;
   }
 
   h5 {
@@ -134,13 +141,13 @@ footer {
   a {
     font-family: "Lato", sans-serif;
     font-weight: 300;
-    font-size: 0.9cqw;
+    font-size: 1rem;
   }
 
   ul {
     font-family: "Lato", sans-serif;
     font-weight: 300;
-    font-size: 1cqw;
+    font-size: 1rem;
   }
 
   li {
