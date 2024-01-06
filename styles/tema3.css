@@ -105,9 +105,8 @@
   }
 
   .knap {
-    text-align: center;
-    margin-top: 5%;
-    padding-left: 5%;
+    padding-left: 44%;
+    padding-top: 5%;
   }
 
   .tekst2_t3 {
@@ -136,7 +135,7 @@
 
   .knap2 {
     padding-top: 10%;
-    padding-left: 35%;
+    /* padding-left: 35%; */
   }
 
   .section2 {

@@ -74,10 +74,8 @@
   }
 
   .knap2 {
-    text-align: center;
-    margin-top: 3%;
-    padding-top: 19px;
-    margin-left: -4%;
+    text-align: end;
+    padding-top: 5%;
   }
 
   .boks2 {
@@ -113,7 +111,7 @@
   .knap {
     text-align: center;
     margin-top: 3%;
-    padding-top: 20px;
+    padding-top: 3%;
   }
 
   .boks4 {

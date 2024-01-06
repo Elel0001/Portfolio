@@ -101,7 +101,7 @@
 
   .knap {
     margin-top: -20%;
-    padding-top: 20px;
-    margin-left: 50%;
+    text-align: end;
+    padding-right: 15%;
   }
 }
