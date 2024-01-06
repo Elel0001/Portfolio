@@ -15,7 +15,7 @@
   }
 
   .tekst1 {
-    padding: 10px 9% 3% 5%;
+    padding: 0% 9% 3% 5%;
     max-width: 68ch;
   }
 
@@ -31,11 +31,11 @@
 
   .tekst02 {
     padding-left: 5%;
-    padding-top: 10px;
+    padding-bottom: 3%;
   }
 
   .box_2 {
-    padding: 25px 0%;
+    padding: 7% 0%;
     max-width: 68ch;
     padding-right: 5%;
   }
@@ -51,14 +51,10 @@
   }
 
   .box_3 {
-    padding-top: 10%;
+    padding-top: 7%;
     padding-left: 5%;
     padding-right: 5%;
-    padding-bottom: 5%;
-  }
-
-  .kode3 {
-    display: none;
+    padding-bottom: 1%;
   }
 
   .section3 {
@@ -67,13 +63,19 @@
   }
 
   .tekst3 {
-    padding-top: 10px;
     max-width: 68ch;
   }
 
   .knap {
     text-align: center;
     margin-top: 6%;
+    padding-bottom: 5%;
+  }
+
+  .boks_4 {
+    padding-top: 7%;
+    padding-left: 5%;
+    padding-right: 5%;
   }
 }
 
@@ -86,6 +88,10 @@
     margin: 0% 16%;
     padding-top: 5%;
     padding-bottom: 5%;
+  }
+
+  .websitebillede {
+    filter: grayscale(0.2);
   }
 
   .tekst_web {
@@ -105,7 +111,7 @@
   }
 
   .box_1 {
-    background-color: #dae3e6;
+    background-color: #d0d7d3;
   }
 
   .section2 {
@@ -140,18 +146,26 @@
   .section3 {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    padding: 6% 23% 6% 23%;
+    padding: 6% 20% 6% 20%;
+    gap: 15px;
   }
 
   .box_3 {
-    background-color: #dae3e6;
-    padding-top: 14%;
-    padding-left: 10%;
-    padding-right: 10%;
+    background-color: #d0d7d3;
+    padding: 7%;
   }
 
   .knap {
     text-align: center;
     padding-top: 3%;
+  }
+
+  .tekst3 {
+    padding-top: 10px;
+  }
+
+  .boks_4 {
+    background-color: #d0d7d3;
+    padding: 7%;
   }
 }

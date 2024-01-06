@@ -138,6 +138,7 @@ h5 = footer tekst + tekst på karousel */
     font-weight: 600;
     font-size: 1.8rem;
     color: #223b44;
+    padding-bottom: 10px;
   }
 
   h4 {

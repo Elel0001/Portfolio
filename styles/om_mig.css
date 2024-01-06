@@ -111,7 +111,7 @@
   .section2 {
     display: grid;
     grid-template-columns: 1fr 2fr;
-    padding-left: 19%;
+    padding-left: 17%;
     gap: 3%;
     padding-bottom: 5%;
   }

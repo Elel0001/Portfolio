@@ -39,8 +39,17 @@
   }
 
   .knap {
-    padding-top: 20px;
+    padding-top: 7%;
     text-align: center;
+    padding-bottom: 2%;
+  }
+
+  .tekst_styling {
+    padding-bottom: 7%;
+  }
+
+  .aktivitetsdiagram {
+    display: none;
   }
 }
 
@@ -49,7 +58,7 @@
   .header_section {
     display: grid;
     grid-template-columns: 1fr 1.5fr;
-    padding-left: 10%;
+    padding-left: 9%;
     padding-right: 10%;
     padding-top: 5%;
     padding-bottom: 5%;
@@ -72,15 +81,23 @@
   .SMD {
     display: grid;
     grid-template-columns: 1.25fr 1fr;
-    padding-left: 11%;
+    padding-left: 13%;
     padding-right: 14%;
     padding-bottom: 5%;
   }
 
   .tekst1 {
-    padding-left: 10%;
-    padding-top: 12%;
+    padding-left: 6%;
     padding-right: 15%;
+  }
+
+  .tekst_styling {
+    padding-bottom: 7%;
+  }
+
+  .aktivitetsdiagram {
+    padding-top: 5%;
+    padding-right: 6%;
   }
 
   .section3 {
@@ -89,6 +106,14 @@
     background-color: #aebdc2;
     padding: 5% 20%;
     gap: 50px;
+  }
+
+  .imgkode1 {
+    padding: 0% 2% 0% 18%;
+  }
+
+  .imgkode2 {
+    padding: 0% 2% 0% 18%;
   }
 
   .tekst02 {

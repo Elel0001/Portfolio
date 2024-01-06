@@ -123,6 +123,5 @@
 
   .tema_billede:hover {
     transform: scale(1.15);
-    /* box-shadow: 0px 6px 12px 0px rgba(51, 72, 141, 0.8); */
   }
 }

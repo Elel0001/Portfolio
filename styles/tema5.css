@@ -36,8 +36,7 @@
   }
 
   .styling_tekst {
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-bottom: 4%;
   }
 
   .knap {
@@ -120,7 +119,13 @@
   }
 
   .helsecentret_billede {
-    padding: 12% 21% 8% 0%;
+    padding: 12% 25% 0% 0%;
+    margin-left: 2%;
+  }
+
+  .footer_billede {
+    padding: 0% 25% 10% 0%;
+    margin-left: 2%;
   }
 
   .tekst002 {
