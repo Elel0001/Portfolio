@@ -92,27 +92,26 @@
 
   .aktivitetsdiagram {
     padding-top: 5%;
-    padding-right: 6%;
   }
 
   .section3 {
     display: grid;
     grid-template-columns: 1fr 1fr;
     background-color: #aebdc2;
-    padding: 4% 20%;
+    padding: 5% 20%;
     gap: 50px;
   }
 
   .imgkode1 {
-    padding: 0% 2% 0% 18%;
+    padding: 0% 2% 0% 27%;
   }
 
   .imgkode2 {
-    padding: 0% 2% 0% 18%;
+    padding: 0% 2% 0% 27%;
   }
 
   .tekst02 {
-    padding-top: 20%;
+    padding-top: 12%;
   }
 
   .styling_tekst {
