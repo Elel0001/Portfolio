@@ -100,7 +100,7 @@
   }
 
   .tekst1 {
-    padding-top: 7%;
+    padding-top: 10%;
     padding-left: 6%;
     padding-right: 38%;
   }
@@ -148,9 +148,9 @@
 
   .screenshot {
     margin-top: 10%;
-    margin-left: 33%;
+    margin-left: 35%;
     margin-bottom: 6%;
-    width: 45%;
+    width: 40%;
   }
 
   .overskrift_sec3 {
@@ -159,10 +159,9 @@
   }
 
   .tekst4 {
-    padding-top: 30%;
+    padding-top: 22%;
     padding-right: 15%;
-    padding-left: 0%;
-    margin-left: -10%;
+    margin-left: -11%;
   }
 
   .knap {

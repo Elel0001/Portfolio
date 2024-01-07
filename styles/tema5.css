@@ -51,6 +51,10 @@
     padding-top: 5%;
     padding-bottom: 5%;
   }
+
+  .footer_billede {
+    padding-bottom: 10%;
+  }
 }
 
 /*********************** Fuld skærm ***********************/
@@ -58,6 +62,7 @@
   .grid_header {
     display: grid;
     grid-template-columns: 1fr 2fr;
+    padding: 0.15%;
   }
 
   .blomst {
@@ -74,7 +79,7 @@
 
   .knap2 {
     text-align: end;
-    padding-top: 5%;
+    padding-top: 8%;
   }
 
   .boks2 {
@@ -129,7 +134,7 @@
   }
 
   .tekst002 {
-    padding-top: 10%;
+    padding-top: 15%;
     padding-bottom: 5%;
     max-width: 68ch;
     margin-left: 28%;

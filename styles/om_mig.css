@@ -89,7 +89,7 @@
 @media screen and (min-width: 750px) {
   .section1 {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 0.8fr 1fr;
     padding-bottom: 5%;
   }
 
@@ -111,14 +111,13 @@
   .section2 {
     display: grid;
     grid-template-columns: 1fr 2fr;
-    padding-left: 17%;
-    gap: 3%;
+    padding-left: 16%;
+    gap: 6%;
     padding-bottom: 5%;
   }
 
   .tekst02 {
     padding-top: 20%;
-    padding-right: 1%;
     max-width: 65ch;
   }
 
@@ -131,7 +130,7 @@
   .galleri {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    max-width: 600px;
+    max-width: 615px;
     gap: 10px;
   }
 
