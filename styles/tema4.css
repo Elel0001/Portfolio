@@ -71,6 +71,7 @@
   .billede_spil {
     max-height: 400px;
     display: block;
+    filter: grayscale(0.1);
   }
 
   .SMD {
