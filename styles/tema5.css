@@ -3,15 +3,12 @@
 /*********** mobilversion ********/
 @media screen and (max-width: 750px) {
   .blomst {
-    padding-right: 50%;
-    padding-top: 6%;
+    display: none;
   }
 
   .tekst001 {
     max-width: 65ch;
-    padding-left: 5%;
-    padding-right: 5%;
-    padding-bottom: 3%;
+    padding: 6% 5% 3% 5%;
   }
 
   .videosite_billede {

@@ -1,8 +1,10 @@
 /* ******************************** WEB - tema 2 ************************* */
 @media screen and (max-width: 750px) {
   .websitebillede {
-    padding: 5% 5%;
+    padding: 0% 5%;
     max-width: 550px;
+    padding-top: 2%;
+    padding-bottom: 2%;
   }
 
   .tekst_web {
@@ -12,6 +14,7 @@
 
   .overskrift1 {
     padding-left: 5%;
+    padding-top: 9%;
   }
 
   .tekst1 {
@@ -20,13 +23,12 @@
   }
 
   .box_1 {
-    padding-bottom: 20px;
     max-width: 68ch;
   }
 
   .section2 {
     background-color: #aebdc2;
-    padding-bottom: 10%;
+    padding-bottom: 8%;
   }
 
   .tekst02 {
@@ -35,19 +37,20 @@
   }
 
   .box_2 {
-    padding: 7% 0%;
+    padding-top: 7%;
+    padding-bottom: 4%;
     max-width: 68ch;
     padding-right: 5%;
   }
 
   .kode1 {
-    padding-left: 5%;
-    padding-right: 5%;
+    padding: 0 5%;
+    max-width: 550px;
   }
 
   .kode2 {
-    padding-left: 5%;
-    padding-right: 5%;
+    max-width: 550px;
+    padding: 0 5%;
   }
 
   .box_3 {
@@ -69,7 +72,7 @@
   .knap {
     text-align: center;
     margin-top: 6%;
-    padding-bottom: 5%;
+    padding-bottom: 10%;
   }
 
   .boks_4 {
@@ -85,7 +88,6 @@
   .section1 {
     display: grid;
     grid-template-columns: 1fr 1.25fr;
-
     padding-top: 4%;
     padding-bottom: 4%;
   }
@@ -100,13 +102,13 @@
     padding-left: 2%;
   }
 
-  .overskrift1 {
-    padding-left: 8%;
+  .box_1 {
+    padding-left: 7%;
+    order: 1;
+    padding-right: 34%;
   }
 
   .tekst1 {
-    padding-left: 8%;
-    padding-bottom: 2%;
     max-width: 65ch;
   }
 
@@ -157,7 +159,9 @@
 
   .knap {
     text-align: center;
-    padding-top: 5%;
+    margin-top: -7%;
+    padding-bottom: 5%;
+    padding-left: 28%;
   }
 
   .boks_4 {

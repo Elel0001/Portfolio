@@ -3,7 +3,6 @@
 /*********** mobilversion ********/
 @media screen and (max-width: 750px) {
   .header_section {
-    padding-top: 5%;
     padding-bottom: 5%;
     max-width: 65ch;
   }

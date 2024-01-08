@@ -2,10 +2,6 @@
 
 /*********** mobilversion ********/
 @media screen and (max-width: 750px) {
-  .billede_strand {
-    padding-bottom: 2%;
-  }
-
   .section1 {
     padding-left: 5%;
     padding-bottom: 5%;
@@ -98,9 +94,9 @@
   }
 
   .tekst01 {
-    padding-left: 22%;
-    padding-top: 12%;
-    padding-right: 20%;
+    padding-left: 15%;
+    padding-top: 10%;
+    padding-right: 30%;
     background-color: #aebdc2;
   }
 
