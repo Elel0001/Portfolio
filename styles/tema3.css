@@ -18,12 +18,6 @@
     max-width: 65ch;
   }
 
-  .knap {
-    text-align: center;
-    margin-top: 6%;
-    padding-top: 5%;
-  }
-
   .section2 {
     padding-left: 5%;
     max-width: 65ch;
@@ -46,24 +40,15 @@
     padding-top: 4%;
   }
 
-  .knap2 {
-    padding-top: 10%;
-    text-align: center;
-  }
-
   .tekst4 {
     margin-left: -2%;
-  }
-
-  .knap3 {
-    padding-top: 9%;
-    padding-bottom: 3%;
-    text-align: center;
   }
 
   .section3 {
     padding: 7%;
     max-width: 65ch;
+    background-color: #aebdc2;
+    margin-top: 10%;
   }
 
   .overskrift_sec3 {
@@ -73,6 +58,23 @@
 
   .screenshot {
     display: none;
+  }
+
+  .knap_1 {
+    text-align: center;
+    padding-top: 9%;
+    padding-bottom: 2%;
+  }
+  .knap_2 {
+    text-align: center;
+    padding-top: 15%;
+    padding-bottom: 4%;
+  }
+
+  .knap_3 {
+    text-align: center;
+    padding-top: 12%;
+    padding-bottom: 6%;
   }
 }
 
@@ -165,17 +167,29 @@
     margin-left: -11%;
   }
 
-  .knap {
-    padding-left: 44%;
-    padding-top: 5%;
+  .knap_1 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: 2%;
+    padding-left: 8%;
+  }
+  .knap_2 {
+    display: flex;
+    justify-content: flex-start;
+    text-align: center;
+    padding-top: 3%;
   }
 
-  .knap2 {
-    padding-top: 10%;
+  .knap_3 {
+    display: flex;
+    justify-content: flex-start;
+    text-align: center;
+    padding-top: 3%;
   }
 
-  .knap3 {
-    padding-top: 7%;
+  .ny_knap:hover {
+    transform: scale(1.1);
   }
 }
 

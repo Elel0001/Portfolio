@@ -69,10 +69,10 @@
     max-width: 68ch;
   }
 
-  .knap {
+  .test_knap {
     text-align: center;
-    margin-top: 6%;
-    padding-bottom: 10%;
+    padding-top: 6%;
+    padding-bottom: 8%;
   }
 
   .boks_4 {
@@ -111,10 +111,6 @@
   .tekst1 {
     max-width: 65ch;
   }
-
-  /* .box_1 {
-    background-color: #d0d7d3;
-  } */
 
   .section2 {
     background-color: #aebdc2;
@@ -157,15 +153,17 @@
     padding: 7%;
   }
 
-  .knap {
-    text-align: center;
-    margin-top: -7%;
-    padding-bottom: 5%;
-    padding-left: 28%;
-  }
-
   .boks_4 {
     background-color: #d0d7d3;
     padding: 7%;
+  }
+
+  .test_knap {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: -8%;
+    padding-left: 28%;
+    padding-bottom: 5%;
   }
 }

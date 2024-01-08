@@ -107,9 +107,8 @@ h5 = footer tekst + tekst på karousel */
     height: 18px;
   }
 
-  .knap_center {
+  .ny_knap {
     padding: 10px 30px;
-    background-color: transparent;
     background-color: #2c505d;
     text-decoration: none;
     color: aliceblue;
@@ -205,7 +204,7 @@ h5 = footer tekst + tekst på karousel */
   }
 
   /* knapper */
-  .knap:hover {
+  /* .knap:hover {
     transform: scale(1.1);
   }
   .knap2:hover {
@@ -213,12 +212,23 @@ h5 = footer tekst + tekst på karousel */
   }
   .knap3:hover {
     transform: scale(1.1);
-  }
+  } */
 
-  .knap_center {
+  /* .knap_center {
     padding: 10px 30px;
     background-color: #2c505d;
     text-decoration: none;
     color: aliceblue;
+  } */
+
+  .ny_knap {
+    padding: 10px 30px;
+    background-color: #2c505d;
+    text-decoration: none;
+    color: aliceblue;
+  }
+
+  .ny_knap:hover {
+    transform: scale(1.1);
   }
 }

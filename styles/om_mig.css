@@ -3,16 +3,21 @@
 /*********** mobilversion ********/
 @media screen and (max-width: 750px) {
   .section1 {
-    padding-left: 5%;
-    padding-bottom: 5%;
     max-width: 65ch;
-    padding-right: 5%;
+    margin-bottom: -2%;
+  }
+
+  .tekst01 {
+    padding: 5% 5%;
+    margin-bottom: 3%;
   }
 
   .section2 {
     padding-top: 2%;
     padding-left: 5%;
     max-width: 65ch;
+    background-color: #aebdc2;
+    padding-bottom: 5%;
   }
 
   .styling_tekst {
@@ -49,13 +54,15 @@
   .tekst02 {
     padding-right: 5%;
     max-width: 65ch;
+    padding-top: 7%;
   }
 
   .section3 {
     max-width: 65ch;
     padding-left: 5%;
     padding-right: 5%;
-    padding-bottom: 5%;
+    padding-bottom: 10%;
+    margin-top: 7%;
   }
 
   .boks1 {
@@ -98,6 +105,7 @@
     padding-top: 10%;
     padding-right: 30%;
     background-color: #aebdc2;
+    order: 1;
   }
 
   .styling_overskrift {

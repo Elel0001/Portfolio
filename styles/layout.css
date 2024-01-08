@@ -13,7 +13,7 @@
   }
 
   .blomsterfigur {
-    max-width: 50%;
+    max-width: 38%;
     padding-top: 4%;
   }
 
@@ -37,13 +37,15 @@
   }
 
   .damefigur {
-    max-width: 40%;
+    max-width: 38%;
   }
 
   .temaer {
     padding-bottom: 10%;
     display: grid;
     grid-template-columns: 1fr 1fr;
+    padding-top: 4%;
+    margin: 0 11%;
   }
 
   .tema_billede {
