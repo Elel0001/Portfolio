@@ -1,4 +1,4 @@
-// //******************* */ taget fra aflevring tema 5 - carousel web med hjælp af ChatGPT + ændringer ***************
+// //******************* */ Caroussel er taget fra aflevering tema 5, og tilpasset mit eget design *****/ - carousel web med hjælp af ChatGPT + ændringer ***************
 
 const carouselMobil = document.querySelector(".carousel_mobil");
 const slidesMobil = document.querySelectorAll(".carousel-slide_mobil");

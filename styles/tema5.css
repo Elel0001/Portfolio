@@ -96,15 +96,9 @@
 
   .boks3 {
     background-color: #dae3e6;
-    margin-top: 18%;
-    margin-bottom: 16%;
-    margin-right: 27%;
+    margin: 17% 27% 17% -7%;
+    padding: 5% 5% 3% 5%;
     z-index: 1;
-    padding-right: 5%;
-    padding-left: 5%;
-    padding-top: 5%;
-    padding-bottom: 3%;
-    margin-left: -7%;
   }
 
   .styling_tekst {
@@ -115,7 +109,7 @@
     display: flex;
     justify-content: flex-end;
     text-align: center;
-    padding-top: 5%;
+    padding-top: 3%;
   }
 
   .knap_6 {

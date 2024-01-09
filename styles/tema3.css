@@ -193,7 +193,7 @@
   }
 }
 
-/***** Caroussel er taget fra aflevering tema 5 *****/
+/***** Caroussel er taget fra aflevering tema 5, og tilpasset mit eget design *****/
 
 /********************************************* karousel ****************************************************/
 
@@ -201,6 +201,7 @@
   width: 100%;
   height: auto;
   object-fit: cover;
+  filter: grayscale(0.2);
 }
 
 .carousel-container {
@@ -301,7 +302,7 @@
     flex-direction: row;
     align-items: center;
     text-align: center;
-    margin: 0% 10% 3% 0%;
+    margin: 0% 8% 3% 0%;
   }
 
   .carousel_mobil {
