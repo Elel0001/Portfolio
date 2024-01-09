@@ -81,6 +81,10 @@
     padding-left: 5%;
     padding-right: 5%;
   }
+
+  .styling_tekst3 {
+    padding-top: 3%;
+  }
 }
 
 /********************** Fuld skærm ****************** */
@@ -163,8 +167,12 @@
     display: flex;
     justify-content: center;
     text-align: center;
-    margin-top: -8%;
+    margin-top: -7%;
     padding-left: 28%;
-    padding-bottom: 5%;
+    padding-bottom: 4%;
+  }
+
+  .styling_tekst3 {
+    padding-top: 2%;
   }
 }

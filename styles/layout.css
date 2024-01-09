@@ -74,10 +74,10 @@
     border-color: #223b44;
     border-style: solid;
     margin: 2rem;
+    position: relative;
   }
 
   /* Placering af farvede bokse der lapper indover hinanden er lavet med delvis inspiration fra chatGPT */
-
   .blomster_div {
     position: absolute;
     background-color: #a8b7b7;
@@ -121,6 +121,7 @@
     align-items: center;
     gap: 30px;
     padding: 37.5% 20% 5.5% 20%;
+    position: relative;
   }
 
   .tema_billede:hover {
