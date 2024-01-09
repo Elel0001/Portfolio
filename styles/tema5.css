@@ -59,6 +59,10 @@
   .footer_billede {
     padding-bottom: 10%;
   }
+
+  .styling_h4 {
+    padding-top: 4%;
+  }
 }
 
 /*********************** Fuld skærm ***********************/
@@ -96,8 +100,8 @@
 
   .boks3 {
     background-color: #dae3e6;
-    margin: 17% 27% 17% -7%;
-    padding: 5% 5% 3% 5%;
+    margin: 16% 32% 17% -10%;
+    padding: 5% 8% 3% 7%;
     z-index: 1;
   }
 
@@ -116,7 +120,7 @@
     display: flex;
     justify-content: center;
     text-align: center;
-    padding-top: 5%;
+    padding-top: 3%;
   }
 
   .boks4 {
@@ -126,18 +130,21 @@
 
   .helsecentret_billede {
     padding: 12% 25% 0% 0%;
-    margin-left: 2%;
   }
 
   .footer_billede {
     padding: 0% 25% 10% 0%;
-    margin-left: 2%;
   }
 
   .tekst002 {
-    padding-top: 15%;
+    padding-top: 9%;
     padding-bottom: 5%;
     max-width: 68ch;
-    margin-left: 28%;
+    margin-left: 27%;
+  }
+
+  .styling_h4 {
+    padding-top: 4%;
+    margin-bottom: -2%;
   }
 }
