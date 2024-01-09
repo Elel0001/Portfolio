@@ -81,7 +81,7 @@
   .tekst001 {
     padding-top: 6%;
     padding-bottom: 6%;
-    padding-right: 49%;
+    padding-right: 51%;
     padding-left: 1%;
   }
 
@@ -111,7 +111,7 @@
 
   .knap_5 {
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     text-align: center;
     padding-top: 3%;
   }
